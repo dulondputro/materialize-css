@@ -1,11 +1,10 @@
-
 <!DOCTYPE html>
 <html>
 <head>
   <!--Import Google Icon Font-->
   <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
   <!--Import materialize.css-->
-  <link type="text/css" rel="stylesheet" href="materialize.min.css"  media="screen,projection"/>
+  <link type="text/css" rel="stylesheet" href="css/materialize.min.css"  media="screen,projection"/>
   <style>
 /* profile card */
 #profile-card .card-image {
@@ -57,58 +56,38 @@
 </head>
 
 <body>
-	
+	<nav>
+	    <div class="container">
+	    	<div class="nav-wrapper">
+			    <a href="#!" class="brand-logo"> Logo</a>
+			    <a href="#" data-target="slide-out" class="sidenav-trigger"><i class="material-icons">menu</i></a>
+			     <ul class="right hide-on-med-and-down">
+			       <li><a href="sass.html">Sass</a></li>
+			       <li><a href="badges.html">Components</a></li>
+			       <li><a href="collapsible.html">Javascript</a></li>
+			       <li><a href="mobile.html">Mobile</a></li>
+			    </ul>
+			</div>
+		</div>
+	</nav>
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-  <nav>
-    <div class="container">
-    <div class="nav-wrapper">
-      <a href="#!" class="brand-logo"> Logo</a>
-      <a href="#" data-target="slide-out" class="sidenav-trigger"><i class="material-icons">menu</i></a>
-      <ul class="right hide-on-med-and-down">
-        <li><a href="sass.html">Sass</a></li>
-        <li><a href="badges.html">Components</a></li>
-        <li><a href="collapsible.html">Javascript</a></li>
-        <li><a href="mobile.html">Mobile</a></li>
-      </ul>
-    </div>
-</div>
-  </nav>
-
-  <ul id="slide-out" class="sidenav">
-    <li><div class="user-view">
-      <div class="background">
-        <img src="img/3.png">
-      </div>
-      <a href="#user"><img class="circle blue lighten-1" src="img/avatar-7.png"></a>
-      <a href="#name"><span class="white-text name">John Doe</span></a>
-      <a href="#email"><span class="white-text email">jdandturk@gmail.com</span></a>
-    </div></li>
-    <li><a href="sass.html">Sass</a></li>
-    <li><a href="badges.html">Components</a></li>
-    <li><a href="collapsible.html">Javascript</a></li>
-    <li><a href="mobile.html">Mobile</a></li>
-  </ul>
-  <!-- <a href="#" data-target="slide-out" class="sidenav-trigger"><i class="material-icons">menu</i></a> -->
+  	<ul id="slide-out" class="sidenav">
+	    <li>
+		    <div class="user-view">
+			    <div class="background">
+			    	<img src="img/3.png">
+			    </div>
+			    <a href="#user"><img class="circle blue lighten-1" src="img/avatar-7.png"></a>
+			    <a href="#name"><span class="white-text name">John Doe</span></a>
+			    <a href="#email"><span class="white-text email">jdandturk@gmail.com</span></a>
+		    </div>
+		</li>
+	    <li><a href="sass.html">Sass</a></li>
+	    <li><a href="badges.html">Components</a></li>
+	    <li><a href="collapsible.html">Javascript</a></li>
+	    <li><a href="mobile.html">Mobile</a></li>
+  	</ul>
+  	<!-- <a href="#" data-target="slide-out" class="sidenav-trigger"><i class="material-icons">menu</i></a> -->
 
 	<div class="slider">
 		<ul class="slides">
@@ -185,105 +164,191 @@
 
         
   
-  <div class="container">
+  	<div class="container">
   	<div class="row">
   	<div class="col m12">
-  		<div class="col m6">
-                  <div id="profile-card" class="card">
-                    <div class="card-image waves-effect waves-block waves-light">
-                      <img class="activator" src="img/3.png"  alt="user bg">
-                    </div>
-                    <div class="card-content">
-                      <img src="img/avatar-7.png" alt="" class="circle responsive-img activator card-profile-image cyan lighten-1 padding-2">
-                      <a class="btn-floating activator btn-move-up waves-effect waves-light red accent-2 z-depth-4 right">
-                        <i class="material-icons">edit</i>
-                      </a>
-                      <span class="card-title activator grey-text text-darken-4">Dahlan Ari Putra</span>
-                      <p>
-                        <i class="material-icons">perm_identity</i> Teknisi Toko</p>
-                      <p>
-                        <i class="material-icons">perm_phone_msg</i> + (62) 812 1938 2867</p>
-                      <p>
-                        <i class="material-icons">email</i> putrakips@gmail.com</p>
-                    </div>
-                    <div class="card-reveal">
-                      <span class="card-title grey-text text-darken-4">Dahlan Ari Putra
-                        <i class="material-icons right">close</i>
-                      </span>
-                      <p>Here is some more information about this card.</p>
-                      <p>
-                        <i class="material-icons">perm_identity</i> Teknisi Toko</p>
-                      <p>
-                        <i class="material-icons">perm_phone_msg</i> + (62) 812 1938 2867</p>
-                      <p>
-                        <i class="material-icons">email</i> Putrakips@gmail.com</p>
-                      <p>
-                        <i class="material-icons">cake</i> 31th August 1992
-                      </p>
-                      <p>
-                      </p>
-                      <p>
-                        <i class="material-icons">airplanemode_active</i> BAR - AUS
-                      </p>
-                      <p>
-                      </p>
-                    </div>
-                  </div>
-                </div>
-              </div>
-		
-		<div class="col m6">
-                  <div id="profile-card" class="card">
-                    <div class="card-image waves-effect waves-block waves-light">
-                      <img class="activator" src="img/3.png"  alt="user bg">
-                    </div>
-                    <div class="card-content">
-                      <img src="img/avatar-7.png" alt="" class="circle responsive-img activator card-profile-image cyan lighten-1 padding-2">
-                      <a class="btn-floating activator btn-move-up waves-effect waves-light red accent-2 z-depth-4 right">
-                        <i class="material-icons">edit</i>
-                      </a>
-                      <span class="card-title activator grey-text text-darken-4">Dahlan Ari Putra</span>
-                      <p>
-                        <i class="material-icons">perm_identity</i> Teknisi Toko</p>
-                      <p>
-                        <i class="material-icons">perm_phone_msg</i> + (62) 812 1938 2867</p>
-                      <p>
-                        <i class="material-icons">email</i> putrakips@gmail.com</p>
-                    </div>
-                    <div class="card-reveal">
-                      <span class="card-title grey-text text-darken-4">Dahlan Ari Putra
-                        <i class="material-icons right">close</i>
-                      </span>
-                      <p>Here is some more information about this card.</p>
-                      <p>
-                        <i class="material-icons">perm_identity</i> Teknisi Toko</p>
-                      <p>
-                        <i class="material-icons">perm_phone_msg</i> + (62) 812 1938 2867</p>
-                      <p>
-                        <i class="material-icons">email</i> Putrakips@gmail.com</p>
-                      <p>
-                        <i class="material-icons">cake</i> 31th August 1992
-                      </p>
-                      <p>
-                      </p>
-                      <p>
-                        <i class="material-icons">airplanemode_active</i> BAR - AUS
-                      </p>
-                      <p>
-                      </p>
-                    </div>
-                  </div>
-                </div>
-              </div>
-</div>
+	<div class="col m6">
+          <div id="profile-card" class="card">
+            <div class="card-image waves-effect waves-block waves-light">
+              <img class="activator" src="img/3.png"  alt="user bg">
+            </div>
+            <div class="card-content">
+              <img src="img/avatar-7.png" alt="" class="circle responsive-img activator card-profile-image cyan lighten-1 padding-2">
+              <a class="btn-floating activator btn-move-up waves-effect waves-light red accent-2 z-depth-4 right">
+                <i class="material-icons">edit</i>
+              </a>
+              <span class="card-title activator grey-text text-darken-4">Dahlan Ari Putra</span>
+              <p>
+                <i class="material-icons">perm_identity</i> Teknisi Toko</p>
+              <p>
+                <i class="material-icons">perm_phone_msg</i> + (62) 812 1938 2867</p>
+              <p>
+                <i class="material-icons">email</i> putrakips@gmail.com</p>
+            </div>
+            <div class="card-reveal">
+	              <span class="card-title grey-text text-darken-4">Dahlan Ari Putra
+	                <i class="material-icons right">close</i>
+	              </span>
+	              <p>Here is some more information about this card.</p>
+	              <p>
+	                <i class="material-icons">perm_identity</i> Teknisi Toko</p>
+	              <p>
+	                <i class="material-icons">perm_phone_msg</i> + (62) 812 1938 2867</p>
+	              <p>
+	                <i class="material-icons">email</i> Putrakips@gmail.com</p>
+	              <p>
+	                <i class="material-icons">cake</i> 31th August 1992
+	              </p>
+	              <p>
+	              </p>
+	              <p>
+	                <i class="material-icons">airplanemode_active</i> BAR - AUS
+	              </p>
+	              <p>
+	              </p>
+            </div>
+          </div>
+    </div>
+
+    <div class="col m6">
+          <div id="profile-card" class="card">
+            <div class="card-image waves-effect waves-block waves-light">
+              <img class="activator" src="img/3.png"  alt="user bg">
+            </div>
+            <div class="card-content">
+              <img src="img/avatar-7.png" alt="" class="circle responsive-img activator card-profile-image cyan lighten-1 padding-2">
+              <a class="btn-floating activator btn-move-up waves-effect waves-light red accent-2 z-depth-4 right">
+                <i class="material-icons">edit</i>
+              </a>
+              <span class="card-title activator grey-text text-darken-4">Dahlan Ari Putra</span>
+              <p>
+                <i class="material-icons">perm_identity</i> Teknisi Toko</p>
+              <p>
+                <i class="material-icons">perm_phone_msg</i> + (62) 812 1938 2867</p>
+              <p>
+                <i class="material-icons">email</i> putrakips@gmail.com</p>
+            </div>
+            <div class="card-reveal">
+	              <span class="card-title grey-text text-darken-4">Dahlan Ari Putra
+	                <i class="material-icons right">close</i>
+	              </span>
+	              <p>Here is some more information about this card.</p>
+	              <p>
+	                <i class="material-icons">perm_identity</i> Teknisi Toko</p>
+	              <p>
+	                <i class="material-icons">perm_phone_msg</i> + (62) 812 1938 2867</p>
+	              <p>
+	                <i class="material-icons">email</i> Putrakips@gmail.com</p>
+	              <p>
+	                <i class="material-icons">cake</i> 31th August 1992
+	              </p>
+	              <p>
+	              </p>
+	              <p>
+	                <i class="material-icons">airplanemode_active</i> BAR - AUS
+	              </p>
+	              <p>
+	              </p>
+            </div>
+          </div>
+    </div>
+
+    <div class="col m6">
+          <div id="profile-card" class="card">
+            <div class="card-image waves-effect waves-block waves-light">
+              <img class="activator" src="img/3.png"  alt="user bg">
+            </div>
+            <div class="card-content">
+              <img src="img/avatar-7.png" alt="" class="circle responsive-img activator card-profile-image cyan lighten-1 padding-2">
+              <a class="btn-floating activator btn-move-up waves-effect waves-light red accent-2 z-depth-4 right">
+                <i class="material-icons">edit</i>
+              </a>
+              <span class="card-title activator grey-text text-darken-4">Dahlan Ari Putra</span>
+              <p>
+                <i class="material-icons">perm_identity</i> Teknisi Toko</p>
+              <p>
+                <i class="material-icons">perm_phone_msg</i> + (62) 812 1938 2867</p>
+              <p>
+                <i class="material-icons">email</i> putrakips@gmail.com</p>
+            </div>
+            <div class="card-reveal">
+	              <span class="card-title grey-text text-darken-4">Dahlan Ari Putra
+	                <i class="material-icons right">close</i>
+	              </span>
+	              <p>Here is some more information about this card.</p>
+	              <p>
+	                <i class="material-icons">perm_identity</i> Teknisi Toko</p>
+	              <p>
+	                <i class="material-icons">perm_phone_msg</i> + (62) 812 1938 2867</p>
+	              <p>
+	                <i class="material-icons">email</i> Putrakips@gmail.com</p>
+	              <p>
+	                <i class="material-icons">cake</i> 31th August 1992
+	              </p>
+	              <p>
+	              </p>
+	              <p>
+	                <i class="material-icons">airplanemode_active</i> BAR - AUS
+	              </p>
+	              <p>
+	              </p>
+            </div>
+          </div>
+    </div>
+
+    <div class="col m6">
+          <div id="profile-card" class="card">
+            <div class="card-image waves-effect waves-block waves-light">
+              <img class="activator" src="img/3.png"  alt="user bg">
+            </div>
+            <div class="card-content">
+              <img src="img/avatar-7.png" alt="" class="circle responsive-img activator card-profile-image cyan lighten-1 padding-2">
+              <a class="btn-floating activator btn-move-up waves-effect waves-light red accent-2 z-depth-4 right">
+                <i class="material-icons">edit</i>
+              </a>
+              <span class="card-title activator grey-text text-darken-4">Dahlan Ari Putra</span>
+              <p>
+                <i class="material-icons">perm_identity</i> Teknisi Toko</p>
+              <p>
+                <i class="material-icons">perm_phone_msg</i> + (62) 812 1938 2867</p>
+              <p>
+                <i class="material-icons">email</i> putrakips@gmail.com</p>
+            </div>
+            <div class="card-reveal">
+	              <span class="card-title grey-text text-darken-4">Dahlan Ari Putra
+	                <i class="material-icons right">close</i>
+	              </span>
+	              <p>Here is some more information about this card.</p>
+	              <p>
+	                <i class="material-icons">perm_identity</i> Teknisi Toko</p>
+	              <p>
+	                <i class="material-icons">perm_phone_msg</i> + (62) 812 1938 2867</p>
+	              <p>
+	                <i class="material-icons">email</i> Putrakips@gmail.com</p>
+	              <p>
+	                <i class="material-icons">cake</i> 31th August 1992
+	              </p>
+	              <p>
+	              </p>
+	              <p>
+	                <i class="material-icons">airplanemode_active</i> BAR - AUS
+	              </p>
+	              <p>
+	              </p>
+            </div>
+          </div>
+    </div>
 
 
 
 
-  	</div>
+
+    </div>
+	</div>
+	</div>
 
   <!--JavaScript at end of body for optimized loading-->
-  <script type="text/javascript" src="materialize.min.js"></script>
+  <script type="text/javascript" src="js/materialize.min.js"></script>
   <script>
   	const sidenav = document.querySelectorAll('.sidenav');
   	M.Sidenav.init(sidenav);
